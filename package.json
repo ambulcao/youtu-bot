@@ -1,0 +1,25 @@
+{
+  "name": "youtu-bot",
+  "version": "1.0.0",
+  "description": "Bot para o Discord de música do youtube em Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambulcao/youtu-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambulcao/youtu-bot/issues"
+  },
+  "homepage": "https://github.com/ambulcao/youtu-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "node-opus": "^0.3.3",
+    "ytdl-core": "^4.1.4"
+  }
+}
