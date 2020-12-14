@@ -1,7 +1,9 @@
 const Discord = require('discord.js');
 const Ytdl = require('ytdl-core');
 
-const token = '';
+if(ProcessingInstruction.env.bot_KEY){
+    require("dotenv").load();
+}
 
 const app = new Discord.Client();
 
